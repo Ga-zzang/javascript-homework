@@ -1,0 +1,9 @@
+.title {
+    Text-Align: center;
+    border-bottom: 1px solid black;
+}
+
+.btn {
+    color: white;
+    background-color: black;
+}
