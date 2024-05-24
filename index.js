@@ -27,7 +27,7 @@ console.log(newuser);
 
 // 삭제...?
 localStorage.removeItem("user");
-console.log(user);
+console.log(localStorage.getItem("user"));
 
 // 문제 1번 (API문서 가져오기)
 fetch('https://jsonplaceholder.typicode.com/posts', {
